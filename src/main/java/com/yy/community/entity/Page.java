@@ -1,12 +1,12 @@
-package com.nowcoder.community.entity;
+package com.yy.community.entity;
 
-/**
- * 封装分页相关的信息.
+/*
+    封装分页相关的信息.
  */
 public class Page {
 
     // 当前页码
-    private int current = 1;
+    private int current = 1;    //赋值就是给默认值 不传就这个值
     // 显示上限
     private int limit = 10;
     // 数据总数(用于计算总页数)
@@ -19,7 +19,7 @@ public class Page {
     }
 
     public void setCurrent(int current) {
-        if (current >= 1) {
+        if (current >= 1) {     //判断，不能是负数
             this.current = current;
         }
     }
@@ -29,7 +29,7 @@ public class Page {
     }
 
     public void setLimit(int limit) {
-        if (limit >= 1 && limit <= 100) {
+        if (limit >= 1 && limit <= 100) {   //判断数据是否过大 给服务器减压
             this.limit = limit;
         }
     }

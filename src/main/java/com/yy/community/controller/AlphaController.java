@@ -1,6 +1,6 @@
-package com.nowcoder.community.controller;
+package com.yy.community.controller;
 
-import com.nowcoder.community.service.AlphaService;
+import com.yy.community.service.AlphaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
-
-@Controller
-@RequestMapping("/alpha")
+//
+//@Controller
+//@RequestMapping("/alpha")
 public class AlphaController {
 
     @Autowired
@@ -50,7 +50,7 @@ public class AlphaController {
         try (
                 PrintWriter writer = response.getWriter();
         ) {
-            writer.write("<h1>牛客网</h1>");
+            writer.write("<h1>YY网</h1>");
         } catch (IOException e) {
             e.printStackTrace();
         }
