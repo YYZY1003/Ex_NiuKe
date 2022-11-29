@@ -34,6 +34,6 @@ public class MailTest {
         String content=templateEngine.process("/mail/demo",context);
         System.out.println(content);
 
-        mailClient.sendMail("15595716045@qq.com","YY",content);
+        mailClient.sendMail("1109675348@qq.com","YY",content);
     }
 }

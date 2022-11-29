@@ -2,7 +2,7 @@
 server:
   port: 8181
   servlet:
-    context-path: /
+    context-path: /community
 
 #mysql
 spring:
@@ -11,10 +11,10 @@ spring:
     url: jdbc:mysql://localhost:3306/niuke?characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
     username: root
     password: 123456
-# ThymeleafProperties
+  # ThymeleafProperties
   thymeleaf:
     cache: false
-# MailProperties
+  # MailProperties
   mail:
     host: smtp.qq.com
     port: 465
@@ -27,8 +27,11 @@ spring:
         smtp:
           ssl:
             enable: ture
-
-
+  servlet:
+    multipart:
+      max-request-size: 50MB
+      max-file-size: 50MB
+      enabled: true
 
 # MybatisProperties
 
@@ -46,3 +49,4 @@ logging-level: com.yy.community=debug
 community:
   path:
     domain: https://localhost:8181
+    upload: E:/JavaWeb/Example/Å£¿Í/community/data/upload
