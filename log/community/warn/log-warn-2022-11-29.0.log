@@ -1,0 +1,1 @@
+2022-11-29 14:01:21,475 WARN [http-nio-8181-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
