@@ -4,12 +4,14 @@ import com.yy.community.entity.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 @Mapper
+@Deprecated   //不推荐使用
 public interface LoginTicketMapper {
 
     //登录状态
     @Insert({"insert into login_ticket(user_id,ticket,status,expired) ",
             "values(#{userId},#{ticket},#{status},#{expired})"})
-    @Options(useGeneratedKeys = true,keyProperty = "id")     //自增
+    @Options(useGeneratedKeys = true, keyProperty = "id")
+    //自增
     int insertLoginTicket(LoginTicket loginTicket);
 
     //修改评论状态
