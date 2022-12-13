@@ -1,0 +1,848 @@
+2022-12-06 01:24:32,179 INFO [Thread-13] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-06 01:24:33,315 INFO [Thread-13] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-12-06 01:24:33,318 INFO [Thread-13] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-12-06 01:24:39,077 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on YY with PID 3448 (started by YY in E:\JavaWeb\java\Example\牛客\community)
+2022-12-06 01:24:39,079 INFO [restartedMain] c.y.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-12-06 01:24:39,128 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 01:24:39,128 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 01:24:39,548 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 01:24:39,549 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-06 01:24:39,567 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2022-12-06 01:24:39,761 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63d50fb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 01:24:40,066 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8181 (http)
+2022-12-06 01:24:40,076 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8181"]
+2022-12-06 01:24:40,082 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-12-06 01:24:40,082 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-12-06 01:24:40,150 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-12-06 01:24:40,151 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1022 ms
+2022-12-06 01:24:40,730 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-06 01:24:40,802 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-12-06 01:24:41,041 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-12-06 01:24:41,061 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8181"]
+2022-12-06 01:24:41,077 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8181 (http) with context path '/community'
+2022-12-06 01:24:41,079 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 2.339 seconds (JVM running for 3.023)
+2022-12-06 01:25:20,652 INFO [http-nio-8181-exec-2] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 01:25:20,652 INFO [http-nio-8181-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-12-06 01:25:20,657 INFO [http-nio-8181-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 5 ms
+2022-12-06 01:25:20,869 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:20],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:25:20,882 INFO [http-nio-8181-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-12-06 01:25:20,971 INFO [http-nio-8181-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-12-06 01:25:21,011 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:21],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,484 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:25:22,487 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,495 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:25:22,508 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:25:22,514 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,516 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,577 INFO [http-nio-8181-exec-3] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-12-06 01:25:22,578 INFO [http-nio-8181-exec-3] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-12-06 01:25:22,954 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,956 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,958 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,960 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,962 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,964 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,964 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,966 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,967 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,968 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,968 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,974 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,974 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,976 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,976 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,978 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:22,979 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:22,981 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:24,717 INFO [http-nio-8181-exec-4] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:24],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:25:24,719 INFO [http-nio-8181-exec-4] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:24],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:24,723 INFO [http-nio-8181-exec-4] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:24],visited the[com.yy.community.service.UserService.logout].
+2022-12-06 01:25:24,777 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:24],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:25:27,529 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:27],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:25:27,988 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:27],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:25:52,251 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:25:52,388 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.login].
+2022-12-06 01:25:52,407 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:25:52,409 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,410 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:25:52,411 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:25:52,415 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,417 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,418 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,420 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,420 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,421 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,422 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,423 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,424 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,425 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,426 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,427 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,428 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,429 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,429 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,430 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,431 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,433 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:25:52,434 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:25:52,435 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:25:52],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:23,414 INFO [Thread-10] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-06 01:35:24,541 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-12-06 01:35:24,546 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-12-06 01:35:24,817 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on YY with PID 3448 (started by YY in E:\JavaWeb\java\Example\牛客\community)
+2022-12-06 01:35:24,817 INFO [restartedMain] c.y.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-12-06 01:35:24,958 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 01:35:24,959 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-06 01:35:24,963 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2022-12-06 01:35:24,993 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63d50fb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 01:35:25,074 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8181 (http)
+2022-12-06 01:35:25,075 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8181"]
+2022-12-06 01:35:25,075 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-12-06 01:35:25,075 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-12-06 01:35:25,091 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-12-06 01:35:25,091 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 273 ms
+2022-12-06 01:35:25,254 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-06 01:35:25,281 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-12-06 01:35:25,362 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-12-06 01:35:25,373 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8181"]
+2022-12-06 01:35:25,375 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8181 (http) with context path '/community'
+2022-12-06 01:35:25,376 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.582 seconds (JVM running for 647.319)
+2022-12-06 01:35:25,377 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-12-06 01:35:38,002 INFO [http-nio-8181-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 01:35:38,003 INFO [http-nio-8181-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-12-06 01:35:38,007 INFO [http-nio-8181-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 4 ms
+2022-12-06 01:35:38,008 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:38],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:35:38,020 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:38],visited the[com.yy.community.service.UserService.logout].
+2022-12-06 01:35:38,036 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:38],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:35:40,832 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:35:40,834 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:35:40,837 INFO [http-nio-8181-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-2 - Starting...
+2022-12-06 01:35:40,839 INFO [http-nio-8181-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2022-12-06 01:35:40,841 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:35:40,844 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,845 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,847 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,848 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,849 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,850 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,851 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,852 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,852 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,854 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,855 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,856 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,856 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,857 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,858 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,860 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,860 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,861 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:40,862 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:40,863 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:40],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,758 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:35:49,759 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:35:49,762 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:35:49,766 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,768 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,768 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,770 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,770 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,772 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,774 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,775 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,775 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,776 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,777 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,779 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,780 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,781 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,781 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,782 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,783 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,784 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:49,784 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:49,785 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:49],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,042 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:35:51,044 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:35:51,046 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:35:51,048 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,049 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,050 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,051 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,051 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,053 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,053 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,055 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,055 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,056 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,056 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,057 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,058 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,059 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,059 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,060 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,060 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,062 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:35:51,062 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:35:51,063 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:35:51],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:09,440 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:09],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:09,485 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:09],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:22,418 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:22,422 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.login].
+2022-12-06 01:36:22,455 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:22,466 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,468 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:36:22,469 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:36:22,470 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,471 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,472 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,473 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,473 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,474 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,474 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,475 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,476 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,478 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,478 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,479 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,480 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,481 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,482 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,483 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,483 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,484 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:22,485 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:22,485 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:22],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:28,874 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:28],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:28,875 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:28],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:28,878 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:28],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:28,879 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:28],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:36:28,879 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:28],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:36:28,882 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:28],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:36:28,895 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:28],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:28,896 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:28],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:33,784 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:33],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:33,786 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:33],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:33,788 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:33],visited the[com.yy.community.service.MessageService.findConversationCount].
+2022-12-06 01:36:33,793 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:33],visited the[com.yy.community.service.MessageService.findConversations].
+2022-12-06 01:36:33,796 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:33],visited the[com.yy.community.service.MessageService.findLetterCount].
+2022-12-06 01:36:33,797 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:33],visited the[com.yy.community.service.MessageService.findLetterUnreadCount].
+2022-12-06 01:36:33,798 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:33],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:33,799 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:33],visited the[com.yy.community.service.MessageService.findLetterUnreadCount].
+2022-12-06 01:36:36,190 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:36],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:36,191 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:36],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:36,194 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:36],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:36,196 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:36],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:36:36,197 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:36],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:36:36,197 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:36],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:36:36,198 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:36],visited the[com.yy.community.service.FollowService.hasFollowed].
+2022-12-06 01:36:41,490 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:41,492 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:41,494 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.FollowService.follow].
+2022-12-06 01:36:41,562 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:41,563 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:41,564 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:41,565 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:36:41,566 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:36:41,567 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:36:41,578 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:41,579 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:41],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:43,107 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:43],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:43,108 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:43],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,365 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:36:48,366 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,371 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:36:48,374 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:36:48,377 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,378 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,379 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,380 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,380 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,381 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,381 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,382 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,383 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,384 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,384 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,385 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,385 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,387 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,387 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,388 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,388 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,390 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:36:48,390 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:36:48,391 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:36:48],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:15,083 INFO [Thread-19] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-06 01:50:16,204 INFO [Thread-19] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-2 - Shutdown initiated...
+2022-12-06 01:50:16,207 INFO [Thread-19] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-2 - Shutdown completed.
+2022-12-06 01:50:16,497 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on YY with PID 3448 (started by YY in E:\JavaWeb\java\Example\牛客\community)
+2022-12-06 01:50:16,497 INFO [restartedMain] c.y.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-12-06 01:50:16,642 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 01:50:16,642 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-06 01:50:16,648 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2022-12-06 01:50:16,677 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63d50fb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 01:50:16,756 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8181 (http)
+2022-12-06 01:50:16,757 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8181"]
+2022-12-06 01:50:16,757 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-12-06 01:50:16,757 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-12-06 01:50:16,770 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-12-06 01:50:16,770 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 272 ms
+2022-12-06 01:50:16,930 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-06 01:50:16,956 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-12-06 01:50:17,031 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-12-06 01:50:17,039 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8181"]
+2022-12-06 01:50:17,041 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8181 (http) with context path '/community'
+2022-12-06 01:50:17,041 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.565 seconds (JVM running for 1538.985)
+2022-12-06 01:50:17,042 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-12-06 01:50:27,779 INFO [http-nio-8181-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 01:50:27,779 INFO [http-nio-8181-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-12-06 01:50:27,783 INFO [http-nio-8181-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 4 ms
+2022-12-06 01:50:27,785 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:50:27,796 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,798 INFO [http-nio-8181-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-3 - Starting...
+2022-12-06 01:50:27,800 INFO [http-nio-8181-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-3 - Start completed.
+2022-12-06 01:50:27,804 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:50:27,807 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:50:27,808 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,810 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,811 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,813 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,814 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,815 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,816 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,817 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,818 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,818 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,820 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,822 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,822 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,824 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,824 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,826 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,826 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,827 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:27,827 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:27,828 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:27],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:36,183 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:36],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:50:36,184 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:36],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:36,188 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:36],visited the[com.yy.community.service.DiscussPostService.findDiscussPostById].
+2022-12-06 01:50:36,191 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:36],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:50:36,192 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:36],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:50:36,193 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:36],visited the[com.yy.community.service.LikeService.findEntityLikeStatus].
+2022-12-06 01:50:36,194 INFO [http-nio-8181-exec-2] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:50:36],visited the[com.yy.community.service.CommentService.findCommentsByEntity].
+2022-12-06 01:51:12,385 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:12],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:51:12,386 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:12],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:51:12,388 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:12],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:51:12,388 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:12],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:51:12,389 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:12],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:51:12,392 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:12],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:51:12,392 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:12],visited the[com.yy.community.service.FollowService.hasFollowed].
+2022-12-06 01:51:15,038 INFO [http-nio-8181-exec-4] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:15],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:51:15,040 INFO [http-nio-8181-exec-4] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:15],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:51:20,131 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:20],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:51:20,132 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:20],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:51:23,174 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:23],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:51:23,175 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:23],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:51:25,394 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:25],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:51:25,396 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:25],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:51:25,397 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:25],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:51:25,397 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:25],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:51:25,397 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:25],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:51:25,398 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:25],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:51:25,398 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:51:25],visited the[com.yy.community.service.FollowService.hasFollowed].
+2022-12-06 01:53:32,425 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:32,426 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,427 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.DiscussPostService.findDiscussPostRows].
+2022-12-06 01:53:32,430 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.DiscussPostService.findDiscussPosts].
+2022-12-06 01:53:32,434 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,435 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,436 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,436 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,436 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,437 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,437 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,437 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,437 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,438 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,438 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,439 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,439 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,439 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,439 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,440 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,440 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,440 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:32,440 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:32,441 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:32],visited the[com.yy.community.service.LikeService.findEntityLikeCount].
+2022-12-06 01:53:33,248 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:33],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:33,249 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:33],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:33,249 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:33],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:33,250 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:33],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:53:33,250 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:33],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:53:33,251 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:33],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:53:33,261 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:33],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:33,262 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:33],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:36,556 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:36],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:36,557 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:36],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:36,558 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:36],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:36,558 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:36],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:53:36,559 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:36],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:53:36,559 INFO [http-nio-8181-exec-3] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:36],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:53:36,572 INFO [http-nio-8181-exec-4] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:36],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:36,572 INFO [http-nio-8181-exec-4] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:36],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:38,247 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:38],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:38,248 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:38],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:38,249 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:38],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:38,249 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:38],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:53:38,249 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:38],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:53:38,249 INFO [http-nio-8181-exec-5] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:38],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:53:38,259 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:38],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:38,260 INFO [http-nio-8181-exec-8] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:38],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:39,890 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:39],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:39,891 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:39],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:39,891 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:39],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:39,892 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:39],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:53:39,892 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:39],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:53:39,893 INFO [http-nio-8181-exec-7] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:39],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:53:39,904 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:39],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:39,906 INFO [http-nio-8181-exec-6] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:39],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:41,931 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:41],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:41,932 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:41],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:41,933 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:41],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:41,934 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:41],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:53:41,934 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:41],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:53:41,935 INFO [http-nio-8181-exec-9] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:41],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:53:41,944 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:41],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:41,945 INFO [http-nio-8181-exec-10] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:41],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:44,210 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:44],visited the[com.yy.community.service.UserService.findLoginTicket].
+2022-12-06 01:53:44,210 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:44],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:44,211 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:44],visited the[com.yy.community.service.UserService.findUserById].
+2022-12-06 01:53:44,211 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:44],visited the[com.yy.community.service.LikeService.findUserLikeCount].
+2022-12-06 01:53:44,212 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:44],visited the[com.yy.community.service.FollowService.findFolloweeCount].
+2022-12-06 01:53:44,212 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:44],visited the[com.yy.community.service.FollowService.findFollowerCount].
+2022-12-06 01:53:44,212 INFO [http-nio-8181-exec-1] c.y.c.a.ServiceLogAspect [ServiceLogAspect.java:38] user[127.0.0.1],in[2022-12-06 01:53:44],visited the[com.yy.community.service.FollowService.hasFollowed].
+2022-12-06 03:30:21,913 INFO [Thread-25] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-06 03:30:23,032 INFO [Thread-25] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-3 - Shutdown initiated...
+2022-12-06 03:30:23,035 INFO [Thread-25] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-3 - Shutdown completed.
+2022-12-06 03:30:23,194 INFO [main] c.y.c.KafkaTests [StartupInfoLogger.java:50] Starting KafkaTests on YY with PID 11952 (started by YY in E:\JavaWeb\java\Example\牛客\community)
+2022-12-06 03:30:23,196 INFO [main] c.y.c.KafkaTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-12-06 03:30:23,508 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on YY with PID 3448 (started by YY in E:\JavaWeb\java\Example\牛客\community)
+2022-12-06 03:30:23,508 INFO [restartedMain] c.y.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-12-06 03:30:23,733 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 03:30:23,734 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-06 03:30:23,739 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2022-12-06 03:30:23,781 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63d50fb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 03:30:23,830 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 03:30:23,832 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-06 03:30:23,858 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2022-12-06 03:30:23,896 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8181 (http)
+2022-12-06 03:30:23,897 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8181"]
+2022-12-06 03:30:23,897 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-12-06 03:30:23,897 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-12-06 03:30:23,921 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-12-06 03:30:23,921 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 410 ms
+2022-12-06 03:30:24,175 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-06 03:30:24,197 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$8de8d182] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 03:30:24,218 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-12-06 03:30:24,239 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba36bfff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 03:30:24,313 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-12-06 03:30:24,327 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8181"]
+2022-12-06 03:30:24,330 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8181 (http) with context path '/community'
+2022-12-06 03:30:24,330 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.862 seconds (JVM running for 7546.274)
+2022-12-06 03:30:24,331 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-12-06 03:30:25,847 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-06 03:30:26,029 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-12-06 03:30:26,509 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-12-06 03:30:26,777 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-12-06 03:30:26,778 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-12-06 03:30:26,865 INFO [main] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: DwDJ8eOjSZOF0pTIZ3PXMA
+2022-12-06 03:30:26,876 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-12-06 03:30:26,880 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-12-06 03:30:26,880 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-12-06 03:30:26,883 INFO [main] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:171] Initializing ExecutorService
+2022-12-06 03:30:26,909 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: DwDJ8eOjSZOF0pTIZ3PXMA
+2022-12-06 03:30:26,910 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-2, groupId=test-consumer-group] Discovered group coordinator YY:9092 (id: 2147483647 rack: null)
+2022-12-06 03:30:26,911 INFO [main] c.y.c.KafkaTests [StartupInfoLogger.java:59] Started KafkaTests in 4.054 seconds (JVM running for 4.728)
+2022-12-06 03:30:26,913 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-2, groupId=test-consumer-group] Revoking previously assigned partitions []
+2022-12-06 03:30:26,913 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: []
+2022-12-06 03:30:26,913 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-2, groupId=test-consumer-group] (Re-)joining group
+2022-12-06 03:30:26,927 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-2, groupId=test-consumer-group] Successfully joined group with generation 1
+2022-12-06 03:30:26,929 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-2, groupId=test-consumer-group] Setting newly assigned partitions [test-0]
+2022-12-06 03:30:26,941 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.Fetcher [Fetcher.java:601] [Consumer clientId=consumer-2, groupId=test-consumer-group] Resetting offset for partition test-0 to offset 6.
+2022-12-06 03:30:26,942 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [test-0]
+2022-12-06 03:30:27,118 INFO [main] o.a.k.c.p.ProducerConfig [AbstractConfig.java:279] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-12-06 03:30:27,132 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-12-06 03:30:27,133 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-12-06 03:30:27,137 INFO [kafka-producer-network-thread | producer-1] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: DwDJ8eOjSZOF0pTIZ3PXMA
+2022-12-06 03:30:37,170 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService
+2022-12-06 03:30:37,177 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer [KafkaMessageListenerContainer.java:840] Consumer stopped
+2022-12-06 03:30:37,179 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-06 03:30:37,192 INFO [Thread-3] o.a.k.c.p.KafkaProducer [KafkaProducer.java:1090] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-12-06 16:43:10,127 INFO [main] c.y.c.KafkaTests [StartupInfoLogger.java:50] Starting KafkaTests on YY with PID 17672 (started by YY in E:\JavaWeb\java\Example\牛客\community)
+2022-12-06 16:43:10,128 INFO [main] c.y.c.KafkaTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-12-06 16:43:11,064 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 16:43:11,069 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-06 16:43:11,119 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2022-12-06 16:43:11,638 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$990886c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 16:43:11,692 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c5567545] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 16:43:12,180 INFO [restartedMain] c.y.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on YY with PID 7860 (started by YY in E:\JavaWeb\java\Example\牛客\community)
+2022-12-06 16:43:12,183 INFO [restartedMain] c.y.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-12-06 16:43:12,233 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 16:43:12,233 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 16:43:12,711 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 16:43:12,712 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-06 16:43:12,731 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2022-12-06 16:43:13,005 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$ccfe9226] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 16:43:13,078 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f94c80a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-06 16:43:13,591 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8181 (http)
+2022-12-06 16:43:13,606 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8181"]
+2022-12-06 16:43:13,615 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-12-06 16:43:13,615 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-12-06 16:43:13,760 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-12-06 16:43:13,761 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1527 ms
+2022-12-06 16:43:13,787 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-06 16:43:13,977 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-12-06 16:43:14,591 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-12-06 16:43:14,724 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-06 16:43:14,852 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-12-06 16:43:14,998 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-12-06 16:43:14,998 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-12-06 16:43:15,140 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-12-06 16:43:15,177 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-12-06 16:43:15,209 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-12-06 16:43:15,210 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-12-06 16:44:15,114 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-06 16:44:15,150 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-06 16:44:15,273 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-06 16:44:15,288 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-12-06 16:44:15,296 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

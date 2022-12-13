@@ -44,4 +44,12 @@
         insert into comment(<include refid="insertFields"></include>)
         values(#{userId},#{entityType},#{entityId},#{targetId},#{content},#{status},#{createTime})
     </insert>
+
+<!--   查询id -->
+    <select id="selectCommentById" resultType="Comment">
+        select
+        <include refid="selectFields"></include>
+        from comment
+        where id =#{id}
+    </select>
 </mapper>
