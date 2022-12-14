@@ -1,0 +1,115 @@
+2022-12-08 01:05:44,846 WARN [http-nio-8181-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379]
+2022-12-08 01:10:12,628 WARN [http-nio-8181-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "profile.html"]
+2022-12-08 01:11:25,400 WARN [http-nio-8181-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [java.lang.IllegalStateException: Optional int parameter 'postId' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.]
+2022-12-08 01:11:30,981 WARN [http-nio-8181-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [java.lang.IllegalStateException: Optional int parameter 'postId' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.]
+2022-12-08 01:11:55,863 WARN [http-nio-8181-exec-5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [java.lang.IllegalStateException: Optional int parameter 'postId' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.]
+2022-12-08 01:16:44,239 WARN [http-nio-8181-exec-6] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "profile.html"]
+2022-12-08 01:16:47,380 WARN [http-nio-8181-exec-10] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: WRONGTYPE Operation against a key holding the wrong kind of value]
+2022-12-08 01:16:50,140 WARN [http-nio-8181-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: WRONGTYPE Operation against a key holding the wrong kind of value]
+2022-12-08 01:16:55,069 WARN [http-nio-8181-exec-6] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: WRONGTYPE Operation against a key holding the wrong kind of value]
+2022-12-08 01:27:16,571 WARN [http-nio-8181-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [java.lang.IllegalStateException: Optional int parameter 'postId' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.]
+2022-12-08 01:27:20,882 WARN [http-nio-8181-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: WRONGTYPE Operation against a key holding the wrong kind of value]
+2022-12-08 01:27:26,361 WARN [http-nio-8181-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: WRONGTYPE Operation against a key holding the wrong kind of value]
+2022-12-08 02:24:58,560 WARN [http-nio-8181-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'form_id' in 'where clause'
+### The error may exist in file [E:\JavaWeb\java\Example\牛客\community\target\classes\mapper\message-mapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select max(id) from message         where status = 0             and form_id = 1             and to_id = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'form_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'form_id' in 'where clause']
+2022-12-08 02:25:11,252 WARN [http-nio-8181-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'form_id' in 'where clause'
+### The error may exist in file [E:\JavaWeb\java\Example\牛客\community\target\classes\mapper\message-mapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select max(id) from message         where status = 0             and form_id = 1             and to_id = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'form_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'form_id' in 'where clause']
+2022-12-08 02:28:10,705 WARN [http-nio-8181-exec-3] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7
+### The error may exist in file [E:\JavaWeb\java\Example\牛客\community\target\classes\mapper\message-mapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select                   id         , from_id, to_id, conversation_id, content, status, create_time               from message         where id in {             select max(id) from message             where status !=2             and from_id = 1             and to_id = ?             and conversation_id = ?         }
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7]
+2022-12-08 02:28:14,219 WARN [http-nio-8181-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7
+### The error may exist in file [E:\JavaWeb\java\Example\牛客\community\target\classes\mapper\message-mapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select                   id         , from_id, to_id, conversation_id, content, status, create_time               from message         where id in {             select max(id) from message             where status !=2             and from_id = 1             and to_id = ?             and conversation_id = ?         }
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7]
+2022-12-08 02:28:47,963 WARN [http-nio-8181-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7
+### The error may exist in file [E:\JavaWeb\java\Example\牛客\community\target\classes\mapper\message-mapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select                   id         , from_id, to_id, conversation_id, content, status, create_time               from message         where id in {             select max(id) from message             where status !=2             and from_id = 1             and to_id = ?             and conversation_id = ?         }
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{
+            select max(id) from message
+            where status !=2
+         ' at line 7]
+2022-12-08 02:29:31,878 WARN [http-nio-8181-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.yy.community.dao.MessageMapper.selectNoticeUnreadCount attempted to return null from a method with a primitive return type (int).]
+2022-12-08 03:01:21,005 WARN [http-nio-8181-exec-10] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:197] Resolved [org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: WRONGTYPE Operation against a key holding the wrong kind of value]
+2022-12-09 03:32:49,509 WARN [elasticsearch[_client_][transport_client_boss][T#1]] i.n.u.c.DefaultPromise [DefaultPromise.java:505] An exception was thrown by org.elasticsearch.transport.netty4.NettyTcpChannel$$Lambda$1313/195035534.operationComplete()
+java.lang.AssertionError: null
+	at org.elasticsearch.transport.netty4.NettyTcpChannel.lambda$sendMessage$1(NettyTcpChannel.java:89)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:502)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:476)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:415)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:540)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:533)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:114)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:1018)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(AbstractChannel.java:888)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.write(DefaultChannelPipeline.java:1365)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:706)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:698)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:780)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:691)
+	at io.netty.handler.logging.LoggingHandler.write(LoggingHandler.java:249)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:706)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:698)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:780)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:691)
+	at io.netty.channel.ChannelDuplexHandler.write(ChannelDuplexHandler.java:106)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:706)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:698)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1700(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1091)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1138)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1062)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:750)
+2022-12-09 04:25:05,309 WARN [main] o.s.w.c.s.GenericWebApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'discussPostRepository': Cannot resolve reference to bean 'elasticsearchTemplate' while setting bean property 'elasticsearchOperations'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'elasticsearchTemplate' available

@@ -221,7 +221,7 @@ public class MessageController implements CommunityConstant {
             messageVo.put("user",userService.findUserById((Integer) data.get("userId")));
             messageVo.put("entityType",data.get("entityType"));
             messageVo.put("entityId",data.get("entityId"));
-//            messageVo.put("postId",data.get("postId"));
+            //messageVo.put("postId",data.get("postId"));
 
             //数量
             int count = messageService.findNoticeCount(user.getId(), TOPIC_FOLLOW);
