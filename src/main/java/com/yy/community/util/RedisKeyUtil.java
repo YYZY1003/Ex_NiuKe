@@ -11,9 +11,9 @@ public class RedisKeyUtil {
     private static final String PREFIX_KAPTCHA = "kaptcha";         //验证码前缀
     private static final String PREFIX_TICKET = "ticket";           //登录凭证
     private static final String PREFIX_USER = "user";
-    private static final String PREFIX_UV = "uv";
-    private static final String PREFIX_DAU = "dau";
-    private static final String PREFIX_POST = "post";
+    private static final String PREFIX_UV = "uv";                   //uv相关前缀
+    private static final String PREFIX_DAU = "dau";                 //日活跃用户
+    private static final String PREFIX_POST = "post";               //帖子分数
 
 
 

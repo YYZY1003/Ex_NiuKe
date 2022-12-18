@@ -54,7 +54,7 @@ public class ElasticsearchTests {
 
     @Test
     public void testInsertList() {
-        discussRepository.saveAll(discussMapper.selectDiscussPosts(101, 0, 100));
+//        discussRepository.saveAll(discussMapper.selectDiscussPosts(101, 0, 100));
 //        discussRepository.saveAll(discussMapper.selectDiscussPosts(102, 0, 100, 0));
 //        discussRepository.saveAll(discussMapper.selectDiscussPosts(103, 0, 100, 0));
 //        discussRepository.saveAll(discussMapper.selectDiscussPosts(111, 0, 100, 0));

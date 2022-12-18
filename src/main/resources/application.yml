@@ -2,7 +2,8 @@
 server:
   port: 8181
   servlet:
-    context-path: /community
+  tomcat:
+    max-http-header-size: 8192
 
 #mysql
 spring:
@@ -28,20 +29,20 @@ spring:
         smtp:
           ssl:
             enable: ture
-#            文件
+  #            文件
   servlet:
     multipart:
       max-request-size: 50MB
       max-file-size: 50MB
       enabled: true
 
-#redis
+  #redis
   redis:
     database: 5
     host: localhost
     port: 6379
 
-#    kafka
+  #    kafka
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
@@ -49,11 +50,40 @@ spring:
       enable-auto-commit: true
       auto-commit-interval: 3000
 
-#      es
+  #      es
   data:
     elasticsearch:
       cluster-name: yy
       cluster-nodes: 127.0.0.1:9300
+
+
+  #      TaskExecutionProperties
+  task:
+    execution:
+      pool:
+        core-size: 5
+        max-size: 15
+        queue-capacity: 100
+    scheduling:
+      pool:
+        size: 5
+
+        # QuartzProperties
+  quartz:
+    job-store-type: jdbc
+    scheduler-name: communityScheduler
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceId: AUTO
+        jobStore:
+          class: org.quartz.impl.jdbcjobstore.JobStoreTX
+          driverDelegateClass: driverDelegateClass
+          isClustered: true
+        threadPool:
+          class: org.quartz.simpl.SimpleThreadPool
+          threadCount: 5
 
 # MybatisProperties
 mybatis:
@@ -71,3 +101,24 @@ community:
   path:
     domain: https://localhost:8181
     upload: E:/JavaWeb/Example/牛客/community/data/upload
+
+#    wk
+wk:
+  image:
+    command: E:/JavaWeb/wkhtmltox/wkhtmltopdf/bin/wkhtmltoimage
+    storage: E:/JavaWeb/wkhtmltox/wkhtmltopdf/data/wk-images
+
+#   caffeine
+caffeine:
+  posts:
+    max-size: 15
+    expire-seconds: 180
+
+
+#    actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: info,caches

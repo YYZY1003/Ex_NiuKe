@@ -1,9 +1,6 @@
 package com.yy.community.config;
 
-import com.yy.community.controller.intercepetor.AlphaInterceptor;
-import com.yy.community.controller.intercepetor.LoginRequiredInterceptor;
-import com.yy.community.controller.intercepetor.LoginTicketInterceptor;
-import com.yy.community.controller.intercepetor.MessageInterceptor;
+import com.yy.community.controller.intercepetor.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -19,28 +16,33 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Autowired
     private LoginTicketInterceptor loginTicketInterceptor;
 
-    @Autowired
-    private LoginRequiredInterceptor loginRequiredInterceptor;
+//    @Autowired
+//    private LoginRequiredInterceptor loginRequiredInterceptor;
 
     @Autowired
     private MessageInterceptor messageInterceptor;
 
+    @Autowired
+    private DataInterceptor dataInterceptor;
+
     //拦截器
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(alphaInterceptor).
-                excludePathPatterns("/**/*.css","/**/*.png","/**/*.jpeg","/**/*.js").
-                addPathPatterns("/register","/login");
+        registry.addInterceptor(alphaInterceptor)
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg")
+                .addPathPatterns("/register", "/login");
 
-        registry.addInterceptor(loginTicketInterceptor).
-                excludePathPatterns("/**/*.css", "/**/*.png", "/**/*.jpeg", "/**/*.js", "/**/*.jpg");
+        registry.addInterceptor(loginTicketInterceptor)
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
 
-        registry.addInterceptor(loginRequiredInterceptor).
-                excludePathPatterns("/**/*.css", "/**/*.png", "/**/*.jpeg", "/**/*.js");
+//        registry.addInterceptor(loginRequiredInterceptor)
+//                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
 
-        registry.addInterceptor(messageInterceptor).
-                excludePathPatterns("/**/*.css", "/**/*.png", "/**/*.jpeg", "/**/*.js");
+        registry.addInterceptor(messageInterceptor)
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
 
+        registry.addInterceptor(dataInterceptor)
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
     }
 }
 
